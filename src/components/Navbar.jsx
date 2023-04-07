@@ -14,7 +14,7 @@ import Arrow from "../assets/arrow.png";
 
 import { Link } from "react-scroll";
 
-const Navbar2 = () => {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
@@ -103,4 +103,4 @@ const Navbar2 = () => {
   );
 };
 
-export default Navbar2;
+export default Navbar;
