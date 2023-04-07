@@ -16,8 +16,8 @@ const Contact = () => {
             contact
           </p>
           <p className="py-4">
-            //send me a form if you have any comments or shoot me an email -
-            c.kwokhong@gmail.com
+            //send me a form if you have any comments, complaints, or conspiracy
+            theories - c.kwokhong@gmail.com
           </p>
         </div>
         <input

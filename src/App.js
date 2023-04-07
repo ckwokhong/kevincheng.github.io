@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import React, { useEffect } from 'react';
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 function App() {
 
 
@@ -32,6 +33,7 @@ function App() {
       <Home/>
       <About/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
