@@ -7,9 +7,9 @@ import { fadeIn } from "../variants";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#fff] font-mono">
+    <div name="home" className="w-full h-screen  bg-[#fff] font-mono">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto h-full px-8 flex flex-col justify-center ">
+      <div className=" max-w-[1000px] mx-auto py-20 px-8 flex flex-col justify-center">
         {/* Memoji */}
         <div className="inline-block justify-center">
           <img src={Hi} alt="Hi" style={{ width: "200px" }}></img>
