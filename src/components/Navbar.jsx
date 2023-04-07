@@ -6,20 +6,18 @@ import {
   FaLinkedin,
   FaFacebook,
 } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+
 import Kaggle from "../assets/kaggle.png";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
 import Arrow from "../assets/arrow.png";
-
-import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[90px] flex justify-center items-center px-3 bg-[#fff] text-black shadow-md">
+    <div className="fixed w-full h-[80px] flex justify-center items-center px-3 bg-[#fff] text-black shadow-md">
       <div>
         <img src={Logo} alt="Logo Image" style={{ width: "180px" }}></img>
       </div>

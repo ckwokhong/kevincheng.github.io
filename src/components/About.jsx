@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-gray-200">
+    <div name="about" className="w-full h-[100%] bg-gray-200">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className=" max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 border-8 items-center">
           {/* About */}
@@ -25,7 +25,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+        <div className="max-w-[1000px] w-full mb-20 grid sm:grid-cols-2 gap-8 px-4">
           {/* first grid */}
           <div className="sm:text-right text-3xl ">
             <p>
