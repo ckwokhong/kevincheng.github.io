@@ -38,7 +38,7 @@ const Home = () => {
             </span>
           </h2> */}
         </h2>
-        <p className="text-[#595850] py-4 max-w-[700px]">
+        <p className="text-[#595850] py-10 max-w-[700px]">
           I am a data analyst deeply passionate about crafting meaningful
           experiences and digital solutions that deliver measurable value. With
           expertise in data analysis, and data science, I am able to provide
@@ -47,7 +47,7 @@ const Home = () => {
         </p>
         <p>I am currently working on: </p>
         <br></br>
-        <div className="max-w-[600px]">
+        <div className="max-w-[600px] pb-15">
           <p>
             1. HarvardX, CS50x - Introduction to Computer Science (In-progress,
             target to complete in May 2023)
