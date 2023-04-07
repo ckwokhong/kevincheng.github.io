@@ -10,6 +10,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import Kaggle from "../assets/kaggle.png";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
+import Arrow from "../assets/arrow.png";
 
 import { Link } from "react-scroll";
 
@@ -93,8 +94,9 @@ const Navbar2 = () => {
       </ul>
       {/*End Mobile Menu */}
       {/* Social Icons */}
-      <div className="hidden lg:flex fixed flex-col top-[45%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[25%] left-0">
         <ul>
+          <img src={Arrow} style={{ width: "300px" }} className="px-10"></img>
           <li className="w-[160px] h-[60px] flex justify-between items-center rounded-tr-3xl ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
