@@ -24,72 +24,31 @@ const Navbar2 = () => {
         <img src={Logo} alt="Logo Image" style={{ width: "180px" }}></img>
       </div>
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
-        {nav ? <FaTimes /> : <FaBars />}
+      <div onClick={handleClick} className="md:hidden z-10 absolute right-10">
+        {nav ? <FaTimes size={25} /> : <FaBars size={25} />}
       </div>
       {/* Mobile Menu */}
       <ul
         className={
           nav
-            ? "absolute top-0 left-0 w-full h-screen flex flex-col items-center justify-center bg-[#fff] text-black "
+            ? "absolute top-0 left-0 w-full h-screen flex flex-col items-center justify-center bg-[#fff] text-black font-mono"
             : "hidden"
         }
       >
-        <li className="py-6 text-3xl">
-          <Link
-            onClick={handleClick}
-            activeClass="active"
-            to="home"
-            smooth={true}
-            duration={500}
-          >
-            Home
-          </Link>
+        <h1 className="font-bold text-3xl py-10">Social Links</h1>
+        <li className="py-6 text-2xl">
+          <a href="https://www.linkedin.com/in/chengkh/">Linkedin</a>
         </li>
-        <li className="py-6 text-3xl">
-          <Link
-            onClick={handleClick}
-            activeClass="active"
-            to="about"
-            smooth={true}
-            duration={500}
-          >
-            About
-          </Link>
+        <li className="py-6 text-2xl">
+          <a href="https://github.com/ckwokhong">Github</a>
         </li>
-        <li className="py-6 text-3xl">
-          <Link
-            onClick={handleClick}
-            activeClass="active"
-            to="skills"
-            smooth={true}
-            duration={500}
-          >
-            Skills
-          </Link>
+        <li className="py-6 text-2xl">
+          <a href="https://www.kaggle.com/kwokhong">Kaggle</a>
         </li>
-        <li className="py-6 text-3xl">
-          <Link
-            onClick={handleClick}
-            activeClass="active"
-            to="work"
-            smooth={true}
-            duration={500}
-          >
-            Work
-          </Link>
-        </li>
-        <li className="py-6 text-3xl">Achievement</li>
-        <li className="py-6 text-3xl">
-          <Link
-            onClick={handleClick}
-            activeClass="active"
-            to="contact"
-            smooth={true}
-            duration={500}
-          >
-            Contact
-          </Link>
+        <li className="py-6 text-2xl">
+          <a href="https://drive.google.com/drive/folders/1M8Fj0MOjeflX9A2srlNq4eNVMMNfO762?usp=share_link">
+            Resume
+          </a>
         </li>
       </ul>
       {/*End Mobile Menu */}
