@@ -47,7 +47,7 @@ const Home = () => {
         </p>
         <p>I am currently working on: </p>
         <br></br>
-        <div className="max-w-[600px] pb-15">
+        <div className="max-w-[700px] mb-40">
           <p>
             1. HarvardX, CS50x - Introduction to Computer Science (In-progress,
             target to complete in May 2023)
