@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+First project to design my own portfolio using ReactJS and TailwindCSS 
+
 ## Available Scripts
 
 In the project directory, you can run:
